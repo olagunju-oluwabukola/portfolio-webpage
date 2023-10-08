@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 2em;
+  
+}
+
+.header{
+display: flex;
+background-color:goldenrod;
+justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    margin-left: 1em;
+}
+
+.logo img{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+ margin-top: 2em;
+}
+.logo h1{
+    color: #fff;
+    margin-left: 10px;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 1em;
+  
+
+}
+
+
+.menu{
+    margin-top: 4em;
+    display: flex;
+    margin-right: 2em;
+}
+
+
+
+.menu a{
+    font-size: 12px;
+text-decoration: none;
+margin-left: 1.5em;
+color: #fff;
+
+}
+
+.menu a:hover{
+
+border-bottom: 2px solid;
+}
+
+.box{
+
+    height: 40vh; 
+    position: relative;
+    background:url('IMG-20230819-WA0023.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    position: relative;
+    
+    height: 40vh;
+    background: transparent;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background:rgba(0,0, 0, 0.7);
+   }
+ 
+    .overlay .text{
+  margin-left: 1.5em;
+   margin-top: 3em;
+   color: goldenrod;
+   }
+
+   .overlay .text p{
+    color: #fff;
+   }
+
+   .overlay .text span{
+    color: #fff;
+   }
+.text button{
+    background-color: goldenrod;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 5em;
+    height: 2em;
+    border-radius: 5px;
+    margin-top: 1em;
+    font-size: 17px;
+}
+.text button:hover{
+    background-color: #fff;
+    color:goldenrod;
+  
+}
+
+.about p{
+margin: 1em;
+line-height: 1.5em;
+}
+   
+.about-img{
+display: flex;
+justify-content: center;
+gap: 2em;
+margin-top: 3em;
+margin-left: 2em;
+
+}
+
+.about-img img{
+    width: 6em;
+    
+}
+.services-h1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+  text-align: center;
+}
+.services{
+    margin-left: 1em;
+    gap: 4em;
+}
+
+.services img{
+    width: 10em;
+}
+
+.mep-h2{
+    margin-bottom:1em;
+    border-bottom: 2px solid goldenrod;
+   
+}
+.service-h1{
+    text-align: center;
+    background: #000;
+    color: #fff;
+height: 2em;
+padding-top: 1em;
+}
+.mep-img{
+display:flex;
+justify-content: center;
+gap: 2em;
+margin-bottom: 2em;
+
+
+}
+
+.me-h2{
+    margin-bottom:2em;
+    border-top: 2px solid goldenrod;
+    margin-top: 2em;
+}
+
+.desc{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.project{
+    margin-top: 2rem;
+}
+
+.project h1{
+    text-align: center ;
+    margin-bottom: 1.5em;
+}
+.projects{
+   margin-left: 1em;
+  display: flex;
+}
+
+.projects-desc{
+    text-align: center;
+}
+.project-container img{
+    width: 8em;
+   margin: 10px;
+}
+
+.project-body{
+    display: grid;
+ grid-template-columns: repeat(4, ifr);
+ 
+}
+
+.project-body img{
+    width: 30em;
+}
+
+form{
+   line-height: 3em;
+}
+
+.contact-info{
+    line-height: 2em;
+}
+
+input{
+    width: 20em;
+}
+
+.bugger{
+    color: #fff;
+   display: none;
+  }
+  
+  .bugger-close{
+  
+    display: none;
+   }
+  
+   .bugger-close span {
+  color: #fff;
+   }
+footer{
+    background-color: black;
+    color: #fff;
+    height: 5em;
+    margin-top: 2em;
+
+}
+
+.footer{
+    display: flex;
+    gap: 2em;
+padding-top: 1.5em;
+margin-right: 3em;
+}
+
+  
