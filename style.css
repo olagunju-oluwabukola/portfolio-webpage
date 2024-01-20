@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container{
@@ -60,7 +61,7 @@ border-bottom: 2px solid;
 
 .box{
 
-    height: 40vh; 
+    height: 100vh; 
     position: relative;
     background:url('IMG-20230819-WA0023.jpg');
     background-size: cover;
@@ -70,8 +71,7 @@ border-bottom: 2px solid;
 
 .overlay{
     position: relative;
-    
-    height: 40vh;
+     height: 100vh;
     background: transparent;
     font-size: 26px;
     color: white;
@@ -83,8 +83,9 @@ border-bottom: 2px solid;
  
     .overlay .text{
   margin-left: 1.5em;
-   margin-top: 3em;
-   color: goldenrod;
+  margin-top: 7em;
+  color: goldenrod;
+
    }
 
    .overlay .text p{
@@ -99,12 +100,17 @@ border-bottom: 2px solid;
     color: #fff;
     outline: none;
     border: none;
-    width: 5em;
+    width: 7em;
     height: 2em;
     border-radius: 5px;
     margin-top: 1em;
     font-size: 17px;
 }
+.text button a{
+color: #fff;
+text-decoration: none;
+}
+
 .text button:hover{
     background-color: #fff;
     color:goldenrod;
@@ -246,4 +252,32 @@ padding-top: 1.5em;
 margin-right: 3em;
 }
 
-  
+  .aboutme h1{
+background-color: #000;
+color: #fff;
+text-align: center;
+height: 2em;
+padding-top: 1em;
+  }
+
+  .about-content{
+   margin: 2em;
+   line-height: 1.8em;
+
+  }
+
+  .container button a{
+    text-decoration: none;
+    color: #fff;
+    background-color: goldenrod;
+    border: none;
+  }
+
+  .container button{
+    color: #fff;
+    background-color: goldenrod;
+    border: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 2px;
+  }
