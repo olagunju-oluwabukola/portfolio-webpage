@@ -155,9 +155,7 @@ margin-left: 2em;
     border-bottom: 2px solid goldenrod;
    
 }
-.mep-img img{
-    display: block;
-}
+
 .service-h1{
     text-align: center;
     background: #000;
@@ -165,9 +163,7 @@ margin-left: 2em;
 height: 2em;
 padding-top: 1em;
 }
-.mep-img{
-display:flex;
-justify-content: center;
+.mep-img img, .mee-img img{
 gap: 2em;
 margin-bottom: 2em;
 
@@ -201,6 +197,9 @@ margin-bottom: 2em;
 .projects-desc{
  margin: 30px;
 }
+
+
+
 .project-container img{
     width: 8em;
    margin: 10px;
